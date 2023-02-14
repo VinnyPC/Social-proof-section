@@ -18,7 +18,7 @@ h1 {
     background: hsl(300, 24%, 96%);
 }
 
-.rating h4 {
+.rating span {
     color: hsl(300, 43%, 22%);
     
 }
@@ -71,7 +71,7 @@ h2 {
         font-size: 3.7vw;
     }
 
-    .rating h4{
+    .rating span{
         font-size: 3.7vw;
     }
     .rating img {
@@ -122,7 +122,8 @@ h2 {
     main {
         display: grid;
         grid-template-columns: 25% 20% 55%;  
-        grid-template-rows: 410px; 
+        grid-template-rows: 410px;
+        
     }
 
     .bottom-background {
@@ -192,7 +193,7 @@ h2 {
         margin-right: 8px;
     }
 
-    .rating h4 {
+    .rating span {
         margin-left: 15px;
     }
 
